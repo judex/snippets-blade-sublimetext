@@ -27,11 +27,10 @@
 
 
 
-{{ Form::open(array('url' => '/', 'method' => 'post', 'name' => '', 'files' => true )) }}
+	{{ Form::open(array('url' => '/', 'method' => 'post', 'name' => '', 'files' => true )) }}
 
 
-
-{{ Form::close() }}
+	{{ Form::close() }}
 
 
 
