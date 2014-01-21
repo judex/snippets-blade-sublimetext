@@ -6,13 +6,13 @@
 
 <h2>
 <a href="#installation" class="anchor" name="installation"></a>Instalar</h2>
-<p>Para instalar solo es necesario descargar los archivos copiar los snippets y guardar en la carpte de <b>User</b> </p><br>
+
+	git clone git@github.com:judex/snippets-blade-sublimetext.git
+
+<p>Para instalar solo es necesario descargar los archivos y guardar los snippets en la carpte de <b>User</b> </p><br>
 <p>Preferences <b>-></b> Browse Packages..</p>
 <p>ubicar la carpeta <b>User</b> </p>
 
-
-
-	git clone git@github.com:judex/snippets-blade-sublimetext.git
 
 
 <h2>Como usar Snippets ?</h2>
