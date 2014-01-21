@@ -15,7 +15,7 @@
 </code>
 <h2>Como usar Snippets ?</h2>
 <p>Es muy sencillo de usar solo genera los corchete y escribir texto inicial<code> {..} </code><br>Ejemplo</p>
-	<br>
+
 <code>
 	{text} + tabulador espacio
 </code>
@@ -31,44 +31,70 @@
 </code>
 <br>
 <p>{text}</p>
-	<code>{{ Form::text('#hiden')}}</code>
+	<code>
+		{{ Form::text('#hiden')}}
+	</code>
 <br>
 <p>{pass}</p>
-	<code>{{ Form::password('#name') }}</code>
+	<code>
+		{{ Form::password('#name') }}
+	</code>
 <br>
 <p>{label}</p>
-	<code>{{ Form::label('#hiden', '#show') }}</code>
+	<code>
+		{{ Form::label('#hiden', '#show') }}
+	</code>
 <br>
 <p>{email}</p>
-	<code>{{ Form::email($name, $value = null, $value = array()) }}</code>
+	<code>
+		{{ Form::email($name, $value = null, $value = array()) }}
+	</code>
 <br>
 <p>{selectRange}</p>
-	<code>{{ Form::selectRange('number', 10, 20) }}</code>
+	<code>
+		{{ Form::selectRange('number', 10, 20) }}
+	</code>
 <br>
 <p>{selectMonth}</p>
-	<code>{{ Form::selectMonth('month') }}</code>
+	<code>
+		{{ Form::selectMonth('month') }}
+	</code>
 <br>
 <p>{check}</p>
-	<code>{{ Form::checkbox('name', 'value' true) }}</code>
+	<code>
+		{{ Form::checkbox('name', 'value' true) }}
+	</code>
 <br>
 <p>{radio}</p>
-	<code>{{ Form::radio('name', 'value') }}</code>
+	<code>
+		{{ Form::radio('name', 'value') }}
+	</code>
 <br>
 <p>{pass}</p>
-	<code>{{ Form::radio('name', 'value') }}</code>
+	<code>
+		{ Form::radio('name', 'value') }}
+	</code>
 <br>
 <p>{file}</p>
-	<code>{{ Form::file('name') }}</code>
+	<code>
+		{{ Form::file('name') }}
+	</code>
 <br>
 <p>{select}</p>
 <code>
+
 	{{Form::select('animal', array(
     'Cats' => array('leopard' => 'Leopard'),
     'Dogs' => array('spaniel' => 'Spaniel'),))}}
+
 </code>
 <br>
 <p>{sub}</p>
-<code>{{ Form::submit('Enviar') }} </code>
+<code>
+
+	{{ Form::submit('Enviar') }}
+
+</code>
 
 <code>
 	@section('name')
@@ -78,7 +104,6 @@
 			{{ Form::label('apellido', 'Apellidos :') }}
 			{{ Form::email($name, $value = null, $attributes = array()) }}
 			{{ Form::submit('Enviar') }}
-
 		{{ Form::close() }}
 	@stop
 </code>
