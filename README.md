@@ -71,42 +71,44 @@
 	</code>
 <br>
 <p>{pass}</p>
-	<code>
+
 		{ Form::radio('name', 'value') }}
-	</code>
+
 <br>
+
 <p>{file}</p>
-	<code>
+
 		{{ Form::file('name') }}
-	</code>
+
 <br>
 <p>{select}</p>
-<code>
+
 
 	{{Form::select('animal', array(
     'Cats' => array('leopard' => 'Leopard'),
     'Dogs' => array('spaniel' => 'Spaniel'),))}}
 
-</code>
+
 <br>
 <p>{sub}</p>
-<code>
+
 
 	{{ Form::submit('Enviar') }}
 
-</code>
 
-<code>
-	@section('name')
-		{{ Form::open(array('url' => '/enviar', 'method' => 'post', 'name' => 'formulario', 'files' => true )) }}
-			{{ Form::label('nombre', 'Nombre :') }}
-			{{ Form::text('name')}}
-			{{ Form::label('apellido', 'Apellidos :') }}
-			{{ Form::email($name, $value = null, $attributes = array()) }}
-			{{ Form::submit('Enviar') }}
-		{{ Form::close() }}
-	@stop
-</code>
+
+<p>Esbir menos XD</p>
+
+@section('name')
+	{{ Form::open(array('url' => '/enviar', 'method' => 'post', 'name' => 'formulario', 'files' => true )) }}
+		{{ Form::label('nombre', 'Nombre :') }}
+		{{ Form::text('name')}}
+		{{ Form::label('apellido', 'Apellidos :') }}
+		{{ Form::email($name, $value = null, $attributes = array()) }}
+		{{ Form::submit('Enviar') }}
+	{{ Form::close() }}
+@stop
+
 
 <p>Bueno espero que les pueda ayudar, a codear menos y para mejorar los snippets puedes contactarte conmigo a mi correo msn.dproyect@gmail.com </p>
 
