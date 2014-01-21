@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+{ Form::selectMonth('${1:month}') }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>selectMonth</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>selectMonth-Blade</description>
+</snippet>
