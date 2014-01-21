@@ -16,7 +16,7 @@
 
 
 <h2>Como usar Snippets ?</h2>
-<p>Es muy sencillo de usar solo genera los corchete y escribir texto inicial<code>{..}</code><br>Ejemplo</p>
+<p>Es muy sencillo de usar solo genera los corchete y escribe dentro el texto inicial<code>{..}</code><br>Ejemplo :</p>
 
 	{tex..} + tabulador espacio
 
