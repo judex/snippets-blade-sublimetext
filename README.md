@@ -2,7 +2,7 @@
 <article itemprop="mainContentOfPage" class="markdown-body entry-content">
  <h1>Snippets Blade Sublimetex2</h1>
 
-<p>snippets para <b>Blade</b> en sublimetext es muy simple; nos ahorrar mucho tiempo en escribir, esto fue una necesida que tenia al tener q ahorrame tiempo en hacer formularios </p>
+<p>snippets para <b>Blade</b> en sublimetext es muy simple; nos ahorrar mucho tiempo en escribir, esto fue una necesidad que tenia, al tener q ahorrame tiempo en hacer formularios</p>
 
 <h2>
 <a href="#installation" class="anchor" name="installation"></a>Instalar</h2>
@@ -14,14 +14,15 @@
 	git clone git@github.com:judex/snippets-blade-sublimetext.git
 </code>
 <h2>Como usar Snippets ?</h2>
-<p>Es muy sencillo de usar solo genera los corchete y escribir texto inicial<code> {..} </code><br>Ejemplo</p>
+<p>Es muy sencillo de usar solo genera los corchete y escribir texto inicial<code>{..}</code><br>Ejemplo</p>
 
-	{text} + tabulador espacio
+	{tex..} + tabulador espacio
 
 <br>
 <h3>Lista de Snippest simples</h3>
 
 <p>{form}</p>
+
 
 {{ Form::open(array('url' => '/', 'method' => 'post', 'name' => '', 'files' => true )) }}
 	...
