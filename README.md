@@ -25,15 +25,15 @@
 
 <p>{form}</p>
 
-<code>
+
 
 {{ Form::open(array('url' => '/', 'method' => 'post', 'name' => '', 'files' => true )) }}
-	#
+
 
 
 {{ Form::close() }}
 
-</code>
+
 
 <br>
 <p>{text}</p>
