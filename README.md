@@ -16,59 +16,58 @@
 <h2>Como usar Snippets ?</h2>
 <p>Es muy sencillo de usar solo genera los corchete y escribir texto inicial<code> {..} </code><br>Ejemplo</p>
 
-<code>
 	{text} + tabulador espacio
-</code>
+
 <br>
-<h3>Lista de Snippest simple</h3>
-<br>
+<h3>Lista de Snippest simples</h3>
+
 <p>{form}</p>
-<code>
+
 {{ Form::open(array('url' => '/', 'method' => 'post', 'name' => '', 'files' => true )) }}
 	...
-
 {{ Form::close() }}
-</code>
+
+
 <br>
 <p>{text}</p>
-	<code>
+
 		{{ Form::text('#hiden')}}
-	</code>
+
 <br>
 <p>{pass}</p>
-	<code>
+
 		{{ Form::password('#name') }}
-	</code>
+
 <br>
 <p>{label}</p>
-	<code>
+
 		{{ Form::label('#hiden', '#show') }}
-	</code>
+
 <br>
 <p>{email}</p>
-	<code>
+
 		{{ Form::email($name, $value = null, $value = array()) }}
-	</code>
+
 <br>
 <p>{selectRange}</p>
-	<code>
+
 		{{ Form::selectRange('number', 10, 20) }}
-	</code>
+
 <br>
 <p>{selectMonth}</p>
-	<code>
+
 		{{ Form::selectMonth('month') }}
-	</code>
+
 <br>
 <p>{check}</p>
-	<code>
+
 		{{ Form::checkbox('name', 'value' true) }}
-	</code>
+
 <br>
 <p>{radio}</p>
-	<code>
+
 		{{ Form::radio('name', 'value') }}
-	</code>
+
 <br>
 <p>{pass}</p>
 
