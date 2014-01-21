@@ -8,10 +8,12 @@
 <a href="#installation" class="anchor" name="installation"></a>Instalar</h2>
 <p>Para instalar solo es necesario descargar los archivos copiar los snippets y guardar en la carpte de <b>User</b> </p><br>
 <p>Preferences <b>-></b> Browse Packages..</p>
-<p>ubicar la carpeta <b>User</b> y </p>
+<p>ubicar la carpeta <b>User</b> </p>
 
 <code>
+
 	git clone git@github.com:judex/snippets-blade-sublimetext.git
+
 </code>
 <h2>Como usar Snippets ?</h2>
 <p>Es muy sencillo de usar solo genera los corchete y escribir texto inicial<code>{..}</code><br>Ejemplo</p>
@@ -23,11 +25,11 @@
 
 <p>{form}</p>
 
-
+<code>
 {{ Form::open(array('url' => '/', 'method' => 'post', 'name' => '', 'files' => true )) }}
 	...
 {{ Form::close() }}
-
+</code>
 
 <br>
 <p>{text}</p>
